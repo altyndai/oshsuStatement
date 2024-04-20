@@ -1,0 +1,30 @@
+// Suggested location to add your overrides so that migration would be easy by just updating the SASS folder in the future
+.container{
+  width: 1290px;
+  margin: auto;
+}
+@media screen and (max-width: 1350px){
+  .container{
+    width: 1140px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .container{
+    width: 932px;
+  }
+}
+@media screen and (max-width: 992px){
+  .container{
+    width: 708px;
+  }
+}
+@media screen and (max-width: 768px){
+  .container{
+    width: 516px;
+  }
+}
+@media screen and (max-width: 576px){
+  .container{
+    width: 100%;
+  }
+}
