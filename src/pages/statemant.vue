@@ -38,7 +38,7 @@
       </div>
       <div class="card">
         <p class="text-base md:text-lg mb-5 ">Лицензиялануучу билим берүү иши үчүн керектүүлөр көрсөтүлсүн</p>
-        <div class="grid ">
+        <div class="grid mb-4">
           <div class="col-12  lg:col-3">
             <div class="field-checkbox mb-3">
               <Checkbox id="checkOption1" name="option" value="башталгыч кесиптик билим берүү"/>
@@ -144,10 +144,12 @@
                 </div>
               </div>
             </div>
-            <Divider />
 
           </div>
         </div>
+
+        <p>Бекитилген негизги жана негизги кесиптик билим берүү программасын pdf жүктөө</p>
+        <Button class="mr-3">PDF жүктөө</Button>
       </div>
     </div>
   </div>

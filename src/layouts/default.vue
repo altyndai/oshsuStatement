@@ -252,7 +252,7 @@ export default defineComponent({
       <div class="layout-main">
         <slot />
       </div>
-      <AppFooter />
+<!--      <AppFooter />-->
     </div>
 
 <!--    <AppConfig :layout-mode="layoutMode" @layout-change="onLayoutChange" />-->

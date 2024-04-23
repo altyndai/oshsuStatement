@@ -8,7 +8,7 @@ export default {
   },
   methods: {
     footerImage() {
-      return this.$appState.darkTheme ? '/images/logo-white.svg' : '/images/logo-dark.svg';
+      return this.$appState.darkTheme ? '/images/header/logo.svg' : '/images/header/logo.svg';
     }
   }
 };
@@ -18,7 +18,7 @@ export default {
   <div class="layout-footer">
     <img alt="Logo" :src="footerImage()" height="20" class="mr-2">
     by
-    <span class="font-medium ml-2">PrimeVue</span>
+    <span class="font-medium ml-2">OshSU Academy</span>
   </div>
 </template>
 
